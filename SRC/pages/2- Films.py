@@ -24,7 +24,7 @@ def decompress_pickle(file):
  data = cPickle.load(data)
  return data
 # décompression du dataframe
-df_films = decompress_pickle('df_films.pbz2')
+df_films = decompress_pickle('SRC/df_films.pbz2')
 
 
 
