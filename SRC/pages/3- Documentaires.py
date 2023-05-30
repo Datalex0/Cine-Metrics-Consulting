@@ -11,7 +11,7 @@ st.set_page_config(page_title="Documentaires",
                    layout='wide')
 
 # Import dataframe
-documentaires = pd.read_csv("C:/Users/murai/OneDrive/Bureau/DATA/PROJET 2/Code/pages/documentaires.csv")
+documentaires = pd.read_csv("SRC/pages/documentaires.csv")
 
 # Changement d'index
 documentaires.set_index('primaryTitle', inplace = True, drop = False )
