@@ -17,9 +17,6 @@ st.set_page_config(page_title="Home-Ciné Metrics Consulting",
                    page_icon=":clapper:", 
                    layout='wide')
 
-#Importation image accueil
-#image = Image.open('C:/Users/murai/OneDrive/Bureau/DATA/PROJET 2/img_home.png')
-
 
 # Initialisation du fond d'écran
 import base64
@@ -37,7 +34,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('C:/Users/murai/OneDrive/Bureau/DATA/PROJET 2/img_home.png')  
+add_bg_from_local('SRC/img_home.png')  
 
 
 
@@ -113,4 +110,4 @@ st.markdown(formulaire_contact, unsafe_allow_html=True)
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)   
-local_css("C:/Users/murai/OneDrive/Bureau/DATA/PROJET 2/Code/pages/style.css") 
+local_css("SRC/pages/style.css") 
