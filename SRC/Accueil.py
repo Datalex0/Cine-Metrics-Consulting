@@ -90,7 +90,7 @@ formulaire_contact = f"""
 #<input type="email" name="email" placeholder="Votre Email" required>
 #<input type="hidden" name="_autoresponse" value="Merci pour votre inscription ! A bientôt dans nos salles ! ">
 # Lecture du csv
-data = pd.read_csv("listletter.csv")
+data = pd.read_csv("SRC/listletter.csv")
 data.set_index('Name')
 # Ajouter les nouvelles données au DataFrame existant
 if email and name:
@@ -99,7 +99,7 @@ if email and name:
                 new_data = pd.DataFrame({"Name": [name], "Mail": [email]})
                 data = pd.concat([data, new_data])
                 # Sauvegarder les données dans le fichier CSV
-                data.to_csv("listletter.csv", columns=['Name','Mail'])
+                data.to_csv("SRC/listletter.csv", columns=['Name','Mail'])
                 st.success("Inscription réussie !")
                 st.dataframe(data[['Name','Mail']])
 else:
