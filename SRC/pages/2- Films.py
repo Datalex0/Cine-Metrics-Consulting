@@ -36,7 +36,7 @@ df_films = df_films[
          ]
 
 # Affichage logo
-image = Image.open("C:/Users/murai/OneDrive/Bureau/DATA/PROJET 2/logo.png")
+image = Image.open("SRC/logo.png")
 st.image(image)
 
 # Affichage Titre
