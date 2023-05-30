@@ -10,8 +10,8 @@ st.set_page_config(page_title="Thématiques",
                    layout='wide')
 
 # Import dataframes
-documentaires = pd.read_csv("Cine-Metrics-Consulting/SRC/pages/documentaires.csv")
-films = pd.read_csv("Cine-Metrics-Consulting/SRC/pages/sam.csv")
+documentaires = pd.read_csv("SRC/pages/documentaires.csv")
+films = pd.read_csv("SRC/pages/sam.csv")
 
 films=films[
     films['numVotes']>=20000
