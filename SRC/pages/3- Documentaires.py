@@ -17,7 +17,7 @@ documentaires = pd.read_csv("SRC/pages/documentaires.csv")
 documentaires.set_index('primaryTitle', inplace = True, drop = False )
 
 # Affichage logo
-image = Image.open("C:/Users/murai/OneDrive/Bureau/DATA/PROJET 2/logo.png")
+image = Image.open("SRC/logo.png")
 st.image(image)
 
 # Affichage Titre
