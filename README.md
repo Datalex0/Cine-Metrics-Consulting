@@ -24,6 +24,6 @@ La présentation a été réalisée via le logiciel **Canva**.
 * [La présentation CANVA convertie au format PDF](https://github.com/Datalex0/Cine-Metrics-Consulting/blob/65ed30dd3aa2a27c1ee258f2b5a9af30fe2670d9/SRC/CINE%20METRICS%20CONSULTING.pdf) 
 * Le code (en python)
 * Les fichiers CSV
-* [Le lien vers la démonstration Streamlit](https://datalex0-cine-metrics-consulting-srcaccueil-ysy904.streamlit.app/)
+* [Le lien vers la démonstration Streamlit](cine-metrics-consulting.streamlit.app)
 * [Le logo d'équipe](SRC/logo.png)
 
