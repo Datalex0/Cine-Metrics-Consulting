@@ -1,4 +1,4 @@
-# :clapper: Ciné Metrics Consulting :movie_camera:
+# - :clapper: Ciné Metrics Consulting :movie_camera:      -
 
 Projet réalisé à partir de bases de données open source proposées par IMDb.
 
