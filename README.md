@@ -21,9 +21,11 @@ La présentation a été réalisée via le logiciel **Canva**.
 
 ##
 ## Les éléments importants :
-* [La présentation CANVA convertie au format PDF](https://github.com/Datalex0/Cine-Metrics-Consulting/blob/65ed30dd3aa2a27c1ee258f2b5a9af30fe2670d9/SRC/CINE%20METRICS%20CONSULTING.pdf) 
-* Le code (en python)
-* Les fichiers CSV
-* [Le lien vers la démonstration Streamlit](https://cine-metrics-consulting.streamlit.app)
-* [Le logo d'équipe](SRC/logo.png)
+* [Le dashboard Power BI converti au format PDF](SRC/Dashboard_le_bon_mayennais.pdf)
+* [Le process d'import TSV](SRC/Process_Import_TSV.md)
+* [La Présentation Powerpoint](SRC/Projet Big Data.ppt)
+* [La Présentation au format PDF](SRC/Projet Big Data_diapo.pdf)
+* Le code des mappers et reducers (en python)
+* Les exports CSV et PDF
+
 
